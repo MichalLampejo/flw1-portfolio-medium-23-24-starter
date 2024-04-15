@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Update Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 
-    <!-- link CSS stylesheet below -->
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- imports JS file -->
-    <script defer src="script.js"></script>
+  <!-- link CSS stylesheet below -->
+  <link rel="stylesheet" href="style.css">
 
-    <!-- imports Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <!-- imports JS file -->
+  <script defer src="script.js"></script>
+
+  <!-- imports Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Add navbar to link all html pages. -->
-    <!-- 
+  <!-- Add navbar to link all html pages. -->
+  <!-- 
         Include at least 4 coding projects. For each project, include:
         - Project name
         - Link to GitHub repo
@@ -24,25 +26,56 @@
         - Short description of project
         - Screenshot of project 
     -->
-    <nav>
-        <button class="btn">Home</button>
-        <button class="btn">About Me</button>
-        <button class="btn">Projects</button>
-        <button class="btn">Contact</button>
-    </nav>
+  <nav>
+    <a class="btn" href="index.html">Home </a>
+    <a class="btn" href="about.html">About Me </a>
+    <a class="btn" href="contact.html">Contact </a>
+    <a class="btn" href="projects.html">Projects </a>
 
-    <div class="content">
-        <p>Your Projects Banner</p>
-        <p>Any message you want to put.</p>
+  </nav>
+  <div class="projectcontent">
+    <div class="project-item">
+      <h1> Projects</h1>
+      <h2> KnowYourReps</h2>
+    <video class = "video"controls width="300" height="300">
+      <source src="Screen Recording 2023-11-01 at 6.13.23 PM.mov" type="video/mp4">
+      Your browser does not support the video tag.
+
+    </video>
+    <div class="project-description">
+    <p> Description: This project is an app I created using xcode, the swift programming language, and google civic api. It provides user with information as well basic informatio on each type of politican and a short quiz. </p>
+    <p> Github repo: coming soon!</p>
+
     </div>
-    <br>
-    <br>
+    </div>
+
+    <div class="project-item">
+      <h1 class = hiddenh1> Projects</h1>
+      <h2> Website</h2>
+    <video  class = "video" controls width="300" height="300">
+      <source src="Screen recording 2023-12-18 8.47.33 PM.webm" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="project-description">
+    <p> Description: This project is a website I made about a topic I'm passionate about.>
+
+    <p> Github repo: https://github.com/MichalLampejo/Website-Homepage</p>
+     
+    </div>
+    </div>
+
+    
+  </div>
+  <br>
+  <br>
 
 
-  </body>
+</body>
 
 <!-- Add a footer to your website for it to look more authentic. -->
-    <footer>
-        <p>&copy; Code Nation 2023</p>
-    </footer>
+<footer>
+  <p>&copy; Code Nation 2023</p>
+</footer>
+
 </html>
